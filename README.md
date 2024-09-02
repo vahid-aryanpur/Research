@@ -1,13 +1,41 @@
-<!-- Start of Custom Styles -->
-<style>
-/* Hide the default header created by GitHub Pages */
-.markdown-body > h1:first-of-type {
-  display: none;
-}
-</style>
-<!-- End of Custom Styles -->
+<!-- Custom Title without Link -->
+<div style="font-size: 30px; font-weight: bold; text-align: center;">Dr Vahid Aryanpur</div>
 
 <!-- Start of Tabs Section -->
+<style>
+/* Styles for the tab buttons */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Styles for the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px 0;
+  border-top: none;
+}
+</style>
+
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Research')" id="defaultOpen">Research</button>
   <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
@@ -46,8 +74,8 @@
   <h2>Contact</h2>
   <p><strong>E-mail:</strong> vahid.aryanpur@ucc.ie</p>
   <p><strong>Address:</strong> Energy Policy and Modelling Group, MaREI, UCC, Lee Rd, Sunday's Well, Cork, T23 XE10</p>
-  <p>You can reach out to me via email or the following social media platforms:</p>
-   <ul>
+  <p>You can reach out to me via email or social media:</p>
+  <ul>
     <li><a href="https://www.ucc.ie/en/epmg/people/">Energy policy and modelling group</a></li>
     <li><a href="https://www.linkedin.com/in/vahidaryanpur/">LinkedIn</a></li>
     <li><a href="https://scholar.google.com/citations?user=AE1CRXgAAAAJ&hl=en">Google Scholar</a></li>
