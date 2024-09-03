@@ -50,7 +50,7 @@
 
   <!-- Right: Photo -->
   <div>
-    <img src="https://github.com/user-attachments/assets/36b911e3-f8a9-4f9e-bc04-156e793a8fd3" alt="Dr Vahid Aryanpur" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+    <img src="![croped 1](https://github.com/user-attachments/assets/990146f2-147b-421c-bcfe-e663d842e6d0)" alt="Dr Vahid Aryanpur" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
   </div>
 </div>
 
