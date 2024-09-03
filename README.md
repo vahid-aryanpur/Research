@@ -1,54 +1,66 @@
 <!-- Custom Title without Link -->
-<div style="font-size: 30px; font-weight: bold; text-align: center;">Dr Vahid Aryanpur</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <!-- Left: Tabs -->
+  <div>
+    <style>
+    /* Styles for the tab buttons */
+    .tab {
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+    }
 
-<!-- Start of Tabs Section -->
-<style>
-/* Styles for the tab buttons */
-.tab {
-  overflow: hidden;
-  border-bottom: 1px solid #ccc;
-}
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
 
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
+    .tab button:hover {
+      background-color: #ddd;
+    }
 
-.tab button:hover {
-  background-color: #ddd;
-}
+    .tab button.active {
+      background-color: #ccc;
+    }
 
-.tab button.active {
-  background-color: #ccc;
-}
+    /* Styles for the tab content */
+    .tabcontent {
+      display: none;
+      padding: 20px 0;
+      border-top: none;
+    }
+    </style>
 
-/* Styles for the tab content */
-.tabcontent {
-  display: none;
-  padding: 20px 0;
-  border-top: none;
-}
-</style>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Research')" id="defaultOpen">Research</button>
+      <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+      <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+    </div>
+  </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Research')" id="defaultOpen">Research</button>
-  <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
-  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+  <!-- Center: Title -->
+  <div style="font-size: 30px; font-weight: bold; text-align: center;">
+    Dr Vahid Aryanpur
+  </div>
+
+  <!-- Right: Photo -->
+  <div>
+    <img src="https://github.com/user-attachments/assets/36b911e3-f8a9-4f9e-bc04-156e793a8fd3" alt="Dr Vahid Aryanpur" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+  </div>
 </div>
 
+<!-- Start of Tabs Section -->
 <div id="Research" class="tabcontent">
   <h2>About Me</h2>
   <p>My name is Vahid Aryanpur. I teach and study energy systems modelling, energy transition, and energy and climate policy. I use GitHub mostly for modelling, result visualisation, data, and teaching material sharing.</p>
 
   <h3>Recent Studies</h3>
   <ul>
-    <!--* **[Accelerated vs Delayed Climate Action](https://www.nature.com/articles/s41598-024-52682-4)**: V. Aryanpur et al. _npj Climate Action_ (2024) -->
     <li><strong><a href="https://www.nature.com/articles/s41598-024-52682-4">Decarbonising Trucks</a></strong>: V. Aryanpur, F. Rogan. <em>Nature Scientific Reports</em> (2024)</li>
     <li><strong><a href="https://www.sciencedirect.com/science/article/pii/S0306261922004676">Decarbonising Private Cars</a></strong>: V. Aryanpur et al. <em>Applied Energy</em> (2022)</li>
     <li><strong><a href="https://gmd.copernicus.org/articles/15/4991/2022/">TIM Documentation Paper</a></strong>: O. Balyk et al. <em>Geoscientific Model Development</em> (2022)</li>
