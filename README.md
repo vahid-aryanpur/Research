@@ -61,6 +61,7 @@
 
   <h3>Recent Studies</h3>
   <ul>
+    <li><strong><a href="https://www.nature.com/articles/s44168-024-00181-7">Accelerated Climate Action</a></strong>: V. Aryanpur et al. <em>Nature npj Climate Action</em> (2024)</li>
     <li><strong><a href="https://www.nature.com/articles/s41598-024-52682-4">Decarbonising Trucks</a></strong>: V. Aryanpur, F. Rogan. <em>Nature Scientific Reports</em> (2024)</li>
     <li><strong><a href="https://www.sciencedirect.com/science/article/pii/S0306261922004676">Decarbonising Private Cars</a></strong>: V. Aryanpur et al. <em>Applied Energy</em> (2022)</li>
     <li><strong><a href="https://gmd.copernicus.org/articles/15/4991/2022/">TIM Documentation Paper</a></strong>: O. Balyk et al. <em>Geoscientific Model Development</em> (2022)</li>
