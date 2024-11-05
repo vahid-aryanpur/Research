@@ -57,7 +57,7 @@
 <!-- Start of Tabs Section -->
 <div id="Research" class="tabcontent">
   <h2>About Me</h2>
-  <p>My name is Vahid Aryanpur. I teach and study energy systems modelling, energy transition, and energy and climate policy. I use GitHub mostly for modelling, result visualisation, data, and teaching material sharing.</p>
+  <p>My name is Vahid Aryanpur. I teach and study energy systems modelling, energy transition, energy and climate policy, and transport decarbonisation. I use GitHub mostly for modelling, result visualisation, data, and teaching material sharing.</p>
 
   <h3>Recent Studies</h3>
   <ul>
