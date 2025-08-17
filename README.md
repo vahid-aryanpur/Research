@@ -43,10 +43,15 @@
     </div>
   </div>
 
-  <!-- Center: Title -->
-  <div style="font-size: 30px; font-weight: bold; text-align: center;">
+<!-- Center: Title -->
+<div style="text-align: center;">
+  <div style="font-size: 30px; font-weight: bold;">
     Dr Vahid Aryanpur
   </div>
+  <div style="font-size: 18px; font-weight: normal;">
+    IPCC WG III, Lead Author
+  </div>
+</div>
 
   <!-- Right: Photo -->
   <div>
