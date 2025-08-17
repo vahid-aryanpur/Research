@@ -39,6 +39,7 @@
     <div class="tab">
       <button class="tablinks" onclick="openTab(event, 'Research')" id="defaultOpen">Research</button>
       <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+      <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
       <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
     </div>
   </div>
@@ -87,6 +88,11 @@
 <div id="Teaching" class="tabcontent">
   <h2>Teaching</h2>
   <p>Details about teaching materials, courses, and lectures will be shared here.</p>
+</div>
+
+<div id="Projects" class="tabcontent">
+  <h2>Projects</h2>
+  <p>Details will be shared here.</p>
 </div>
 
 <div id="Contact" class="tabcontent">
